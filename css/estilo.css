@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar {
+    overflow: hidden;
+    background-color: #c0e6ed;
+    top: 0px; 
+    width: 100%; 
+    position: fixed; 
+    z-index: 99999;
+}
+
+
+.navbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.marka {
+    float: left !important;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 28px;
+    background-color: #c0e6ed;
+
+}
+
+.marka:hover {
+    background: #ddd;
+    color: black;
+}
+.main {
+    margin-top: 30px; 
+}
+
+.container {
+	float: right;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 .bar4{
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+@media screen and (min-width : 320px) and (max-width : 720px) {
+    .navbar a {
+        float: right;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+}
+
+
+.ti {
+    color:   #000000;
+    text-align: center;
+    font-size: 500%;
+    font-family: Serif;
+    font-style:oblique; 
+
+}
+
+.subti {
+    color:   #000000;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Serif;
+    font-style:oblique;
+
+}
+.pa {
+    margin-right: 250px;
+    margin-left: 250px;
+    text-align: center;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center
+    color:   black;
+    font-size: 120%;
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+
+
+.foo {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: #c0e6ed;
+    color: black;
+    text-align: center;
+    font-family: Helvetica, Arial, Sans-Serif;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
